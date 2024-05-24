@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "carqualityevaluation"
+version = "0.1.0"
+description = "Deply Streamlit app to evaluate car quality"
+authors = ["veraz00 <zenglinlin00@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+altair = "^5.3.0"
+
+
+[tool.poetry.dev-dependencies]
+black = "^24.4.2"
