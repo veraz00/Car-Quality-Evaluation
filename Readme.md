@@ -6,7 +6,11 @@ This project is a web application built by **Streamlit** for evaluating car qual
 
 You can view a demo of the web application on YouTube:
 
-[![Demo](http://img.youtube.com/vi/G3D9sThPSRk/0.jpg)](http://www.youtube.com/watch?v=G3D9sThPSRk)
+[![Demo](http://img.youtube.com/vi/G3D9sThPSRk/0.jpg)](https://youtu.be/G3D9sThPSRk)
+
+
+## Live Demo
+You can try this live demo of the application: [Here](https://veraz00-car-quality-evaluation.streamlit.app/)
 
 ## Deployment
 
