@@ -24,6 +24,7 @@ if app_mode == "Home":
         "safety": "Safety",
         "persons": "Number of Persons to Carry",
         "class": "Evaluation Result",
+        "maint": "Past Maintenance Fee",
     }
 
     df = df.rename(columns=head_map)
@@ -39,7 +40,7 @@ if app_mode == "Home":
 
     st.write(df.head())
     # add explanation for head of data and content ??
-    st.subheader("Safety VS Class")
+    st.subheader("Safety VS Evaluation Result")
 
 
     c = (
