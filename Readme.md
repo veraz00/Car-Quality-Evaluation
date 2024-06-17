@@ -31,6 +31,8 @@ cd <path to current project>
 
 # Install the dependencies
 pip3 install . 
+# pip3 install .[dev]
+
 
 # Run the application
 streamlit run main.py

@@ -7,7 +7,7 @@ import altair as alt
 
 app_mode = st.sidebar.selectbox("Select Page", ["Home", "Prediction"])
 data_path = "./data/car_evaluation.csv"
-model_path = "./model/RandomForest.pkl"
+model_path = "./src/model/RandomForest.pkl"
 mapping = True
 
 if app_mode == "Home":

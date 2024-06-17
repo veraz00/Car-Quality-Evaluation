@@ -1,19 +1,24 @@
-[tool.poetry]
+[build-system]
+requires = ["setuptools"]
+
+
+[project]
 name = "carqualityevaluation"
 version = "0.1.0"
 description = "Deply Streamlit app to evaluate car quality"
-authors = ["veraz00 <zenglinlin00@gmail.com>"]
-readme = "README.md"
+authors = [{name = "veraz00", email="zenglinlin00@gmail.com"}]
+readme = "Readme.md"
+dependencies = [
+  "streamlit==1.29.0",
+  "pandas",
+  "numpy",
+  "altair",
+  "scikit-learn",
+]
+requires-python = ">=3.8"
 
 
-[tool.poetry.dependencies]
-python = "^3.10"
-streamlit = "^1.29.0"
-pandas = "^2.2.2"
-numpy = "^1.26.4"
-altair = "^5.3.0"
-scikit-learn = "^1.5.0"
+[project.optional-dependencies]
+dev = ["black"]
 
-
-[tool.poetry.dev-dependencies]
-black = "^24.4.2"
+# refer: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
