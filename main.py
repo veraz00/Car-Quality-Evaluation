@@ -36,7 +36,7 @@ if app_mode == "Home":
             "vgood": "very good",
             "acc": "acceptable",
         }
-        df = df.map(lambda x: val_map[x] if x in val_map.keys() else x)
+        df['Safety'] = df['Safety'].map(lambda x: val_map[x] if x in val_map.keys() else x)
 
     st.write(df.head())
     # add explanation for head of data and content ??
